@@ -14,6 +14,17 @@
 		AA70FE1E25591E0200AE43A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA70FE1D25591E0200AE43A7 /* Assets.xcassets */; };
 		AA70FE2125591E0200AE43A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA70FE1F25591E0200AE43A7 /* LaunchScreen.storyboard */; };
 		AA70FE2425591E0200AE43A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70FE2325591E0200AE43A7 /* main.m */; };
+		AA70FE2D25591EB000AE43A7 /* TabVIewHome.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70FE2C25591EB000AE43A7 /* TabVIewHome.m */; };
+		AA70FE3125591ECD00AE43A7 /* TabViewChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70FE3025591ECD00AE43A7 /* TabViewChannel.m */; };
+		AA70FE3425591EE600AE43A7 /* TabViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70FE3325591EE600AE43A7 /* TabViewInfo.m */; };
+		AA70FE3725591EFE00AE43A7 /* TabViewShopping.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70FE3625591EFE00AE43A7 /* TabViewShopping.m */; };
+		AA70FE3A25591F1100AE43A7 /* TabViewMine.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70FE3925591F1100AE43A7 /* TabViewMine.m */; };
+		AA70FE4F2559394500AE43A7 /* icon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AA70FE4E2559394500AE43A7 /* icon.bundle */; };
+		AA70FE5325593FF000AE43A7 /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA70FE5225593FF000AE43A7 /* TabbarViewController.m */; };
+		AA7CFA19255A43BF008B3DA1 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7CFA18255A43BF008B3DA1 /* TableViewCell.m */; };
+		AA7CFA23255A8CBB008B3DA1 /* ChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7CFA22255A8CBB008B3DA1 /* ChannelViewController.m */; };
+		AA7CFA28255A8CCA008B3DA1 /* SectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7CFA27255A8CCA008B3DA1 /* SectionViewController.m */; };
+		AA7CFC10255E77DA008B3DA1 /* ChannelNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7CFC0F255E77DA008B3DA1 /* ChannelNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +40,27 @@
 		AA70FE2025591E0200AE43A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA70FE2225591E0200AE43A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA70FE2325591E0200AE43A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA70FE2C25591EB000AE43A7 /* TabVIewHome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabVIewHome.m; sourceTree = "<group>"; };
+		AA70FE3025591ECD00AE43A7 /* TabViewChannel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewChannel.m; sourceTree = "<group>"; };
+		AA70FE3325591EE600AE43A7 /* TabViewInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewInfo.m; sourceTree = "<group>"; };
+		AA70FE3625591EFE00AE43A7 /* TabViewShopping.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewShopping.m; sourceTree = "<group>"; };
+		AA70FE3925591F1100AE43A7 /* TabViewMine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewMine.m; sourceTree = "<group>"; };
+		AA70FE3C25591F2600AE43A7 /* TabViewHome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabViewHome.h; sourceTree = "<group>"; };
+		AA70FE3D25591F4100AE43A7 /* TabViewChannel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabViewChannel.h; sourceTree = "<group>"; };
+		AA70FE3E25591F5800AE43A7 /* TabViewInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabViewInfo.h; sourceTree = "<group>"; };
+		AA70FE3F25591F6C00AE43A7 /* TabViewShopping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabViewShopping.h; sourceTree = "<group>"; };
+		AA70FE4025591F7C00AE43A7 /* TabViewMine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabViewMine.h; sourceTree = "<group>"; };
+		AA70FE4E2559394500AE43A7 /* icon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = icon.bundle; sourceTree = "<group>"; };
+		AA70FE5225593FF000AE43A7 /* TabbarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarViewController.m; sourceTree = "<group>"; };
+		AA70FE552559402100AE43A7 /* TabbarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbarViewController.h; sourceTree = "<group>"; };
+		AA7CFA17255A43BF008B3DA1 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		AA7CFA18255A43BF008B3DA1 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		AA7CFA21255A8CBB008B3DA1 /* ChannelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChannelViewController.h; sourceTree = "<group>"; };
+		AA7CFA22255A8CBB008B3DA1 /* ChannelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelViewController.m; sourceTree = "<group>"; };
+		AA7CFA26255A8CCA008B3DA1 /* SectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectionViewController.h; sourceTree = "<group>"; };
+		AA7CFA27255A8CCA008B3DA1 /* SectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectionViewController.m; sourceTree = "<group>"; };
+		AA7CFC0E255E77DA008B3DA1 /* ChannelNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChannelNavigationViewController.h; sourceTree = "<group>"; };
+		AA7CFC0F255E77DA008B3DA1 /* ChannelNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChannelNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +93,9 @@
 		AA70FE1025591E0000AE43A7 /* bilitest */ = {
 			isa = PBXGroup;
 			children = (
+				AA7CFA20255A8C96008B3DA1 /* TabView */,
+				AA70FE4E2559394500AE43A7 /* icon.bundle */,
+				AA70FE2B25591E7E00AE43A7 /* TabPages */,
 				AA70FE1125591E0000AE43A7 /* AppDelegate.h */,
 				AA70FE1225591E0000AE43A7 /* AppDelegate.m */,
 				AA70FE1425591E0000AE43A7 /* SceneDelegate.h */,
@@ -74,6 +109,40 @@
 				AA70FE2325591E0200AE43A7 /* main.m */,
 			);
 			path = bilitest;
+			sourceTree = "<group>";
+		};
+		AA70FE2B25591E7E00AE43A7 /* TabPages */ = {
+			isa = PBXGroup;
+			children = (
+				AA70FE2C25591EB000AE43A7 /* TabVIewHome.m */,
+				AA70FE3C25591F2600AE43A7 /* TabViewHome.h */,
+				AA70FE3025591ECD00AE43A7 /* TabViewChannel.m */,
+				AA70FE3D25591F4100AE43A7 /* TabViewChannel.h */,
+				AA70FE3325591EE600AE43A7 /* TabViewInfo.m */,
+				AA70FE3E25591F5800AE43A7 /* TabViewInfo.h */,
+				AA70FE3625591EFE00AE43A7 /* TabViewShopping.m */,
+				AA70FE3F25591F6C00AE43A7 /* TabViewShopping.h */,
+				AA70FE3925591F1100AE43A7 /* TabViewMine.m */,
+				AA70FE4025591F7C00AE43A7 /* TabViewMine.h */,
+				AA70FE5225593FF000AE43A7 /* TabbarViewController.m */,
+				AA70FE552559402100AE43A7 /* TabbarViewController.h */,
+				AA7CFA17255A43BF008B3DA1 /* TableViewCell.h */,
+				AA7CFA18255A43BF008B3DA1 /* TableViewCell.m */,
+				AA7CFC0E255E77DA008B3DA1 /* ChannelNavigationViewController.h */,
+				AA7CFC0F255E77DA008B3DA1 /* ChannelNavigationViewController.m */,
+			);
+			path = TabPages;
+			sourceTree = "<group>";
+		};
+		AA7CFA20255A8C96008B3DA1 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				AA7CFA21255A8CBB008B3DA1 /* ChannelViewController.h */,
+				AA7CFA22255A8CBB008B3DA1 /* ChannelViewController.m */,
+				AA7CFA26255A8CCA008B3DA1 /* SectionViewController.h */,
+				AA7CFA27255A8CCA008B3DA1 /* SectionViewController.m */,
+			);
+			path = TabView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA70FE4F2559394500AE43A7 /* icon.bundle in Resources */,
 				AA70FE2125591E0200AE43A7 /* LaunchScreen.storyboard in Resources */,
 				AA70FE1E25591E0200AE43A7 /* Assets.xcassets in Resources */,
 				AA70FE1C25591E0000AE43A7 /* Main.storyboard in Resources */,
@@ -145,10 +215,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA70FE5325593FF000AE43A7 /* TabbarViewController.m in Sources */,
 				AA70FE1925591E0000AE43A7 /* ViewController.m in Sources */,
+				AA7CFC10255E77DA008B3DA1 /* ChannelNavigationViewController.m in Sources */,
+				AA70FE3425591EE600AE43A7 /* TabViewInfo.m in Sources */,
 				AA70FE1325591E0000AE43A7 /* AppDelegate.m in Sources */,
 				AA70FE2425591E0200AE43A7 /* main.m in Sources */,
+				AA7CFA28255A8CCA008B3DA1 /* SectionViewController.m in Sources */,
+				AA70FE3A25591F1100AE43A7 /* TabViewMine.m in Sources */,
+				AA7CFA23255A8CBB008B3DA1 /* ChannelViewController.m in Sources */,
 				AA70FE1625591E0000AE43A7 /* SceneDelegate.m in Sources */,
+				AA70FE3125591ECD00AE43A7 /* TabViewChannel.m in Sources */,
+				AA70FE3725591EFE00AE43A7 /* TabViewShopping.m in Sources */,
+				AA7CFA19255A43BF008B3DA1 /* TableViewCell.m in Sources */,
+				AA70FE2D25591EB000AE43A7 /* TabVIewHome.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
